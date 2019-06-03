@@ -1,0 +1,107 @@
+#menu1,#menu2{
+    background-color: #232f3e;
+}
+#menu2,#menu3{
+    height: 40px;;
+}
+#menu1 #logo{
+    width: 100px;
+}
+#menu1 #help{
+    width: 400px;
+}
+#search-button{
+    background-color: rgba(253, 211, 24, 0.918);
+}
+.card-menu-cody{
+    visibility: hidden;
+}
+.card-menu-cody :hover{
+    visibility: visible;
+}
+.segundo-menu img{
+    width: 30px;    
+}
+/* .segundo-menu-small{
+    display: flex;
+    justify-content: center;
+} */
+#menu3{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/* .menu-principal{
+    font-size: 14px; 
+} */
+.menu-secundario{
+    font-size: 15px;
+}
+.pie-menu{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/* Fin del menu */
+/* Beneficios */
+.tarjeta{
+    height: 180px;
+}
+.imagen{
+    /* background-color: tomato; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linea{
+    border-top: 2px solid black;
+}
+.cajita{
+    border-radius: 0px;
+    box-shadow: 5px 5px 5px gray;
+}
+.tarjeta img{
+    width: 150px;
+}
+/* Fin de los beneficios */
+/* Section Try me */
+.try-me-content{
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/marketing/prime/detail_page/Gradient_BG_Hero._CB465757997_.png);
+    background-repeat: no-repeat;
+    height: 350px;
+}
+.try-me-content img{
+    margin-top: 10px;
+    width: 70px;
+}
+#titulo-largo{
+    color: white;
+    font-weight: 400;
+}
+.try-me-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer1 hr{
+    border-top: 2px solid white;
+}
+#footer1{
+    background-color: #232f3e;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#boton-final{
+    color: white;
+    text-decoration: none;
+    background-color: #2f4055;
+}
+#boton-final:hover{
+    text-decoration: none;
+    background-color: #3f5570;
+}
+#footer2{
+    background-color: #232f3e;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+}
+#footer2 a{
+    color: white;
+}
