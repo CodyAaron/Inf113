@@ -1,0 +1,517 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="amaze.css">
+    <title>Amaze</title>
+  </head>
+  <body>    
+    <!-- Menu -->
+    <header id="header">
+      <!-- Primer menu -->
+      <nav id="menu1" class="navbar navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img id="logo" src="./assets/amazon.png" alt="Platzi logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="input-group mb-3 mr-3">
+              <input type="text" class="form-control" placeholder="Búsqueda" aria-label="Recipient's username" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <!-- <span class="input-group-text" id="basic-addon2">Search</span> -->
+                
+                <button id="search-button" type="button" class="btn btn-warning ">Search</button>
+                
+              </div>
+            </div>
+            <div id="help">
+              <div style="width: 400px; height: 39px; overflow: hidden;position: relative;"><img src="https://images-na.ssl-images-amazon.com/images/G/01/amazonglobal/images/Fuji/SWM/Spanish/2018/September/Fuji_ES_SWM_CustomerService._CB485884561_.png" border="0"></div>
+            </div>
+
+        </div>
+      </nav>  
+      <!-- /Primer menu -->
+      <!-- Segundo Menu -->
+      <nav id="menu2" class="navbar navbar-expand-lg navbar-dark segundo-menu">
+        <div class="container-fluid">
+          
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav segundo-menu-small">
+                
+                <li class="nav-item active text-center">
+                  <!-- <a class="nav-link" href=".send-bolivia">Enviar a Bolivia </a> -->
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                    Enviar a Bolivia
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalCenterTitle">Envios a Bolivia</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          Estamos trabajando para poder llegar a mas paises en los proximos meses.
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                          <!-- <button type="button" class="btn btn-primary">Deacuerdo</button> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                
+                <li class="nav-item dropdown active text-center">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Departamentos
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Peliculas</a>
+                    <a class="dropdown-item" href="#">Articulos</a>
+                    <a class="dropdown-item" href="#">Musica</a>
+                    <a class="dropdown-item" href="#">Libros</a>
+                    <a class="dropdown-item" href="#">Software</a>
+                    <a class="dropdown-item" href="#">Equipaje</a>
+                    <a class="dropdown-item" href="#">Amaze Music</a>
+                    <a class="dropdown-item" href="#">Smart Home</a>
+                    <a class="dropdown-item" href="#">Video juegos</a>
+                    <a class="dropdown-item" href="#">Juguetes</a>
+                    <a class="dropdown-item" href="#">Prime</a>
+                    <a class="dropdown-item" href="#">Electronicos</a>
+                  </div>
+                </li>
+                <li class="nav-item text-center menu-secundario">
+                  <!-- <a class="nav-link" href="#">Ofertas del día</a> -->
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Ofertas">
+                    Ofertas del dia
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="Ofertas" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalCenterTitle">Ofertas del día</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          Registrate para poder ver las ofertas especiales que tenemos para ti
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                          <button type="button" class="btn btn-primary" data-dismiss="modal">Ok!</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item text-center menu-secundario">
+                  <a class="nav-link" href="#">Tu amaze zone</a>
+                </li>
+                <li class="nav-item text-center menu-secundario">
+                  <a class="nav-link" href="#">Comprar de nuevo</a>
+                </li>
+                <li class="nav-item text-center menu-secundario">
+                  <a class="nav-link" href="#">Tarjetas de regalo</a>
+                </li>
+                <li class="nav-item text-center menu-secundario">
+                  <a class="nav-link" href="#">Ayuda</a>
+                </li>
+                <li class="nav-item text-center menu-secundario">
+                  <a class="nav-link" href="#">Listas</a>
+                </li>
+
+
+                <li class="nav-item dropdown text-center">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Cuentas y listas
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <div class="container">
+                      <button type="button" class="btn btn-warning ">Inicia sesion</button>
+                    </div>
+                    <a class="dropdown-item" href="#">Mis favoritos</a>
+                    <a class="dropdown-item" href="#">Mi lista de deseos</a>
+                    <a class="dropdown-item" href="#">Sugerencias para ti</a>
+                    <a class="dropdown-item" href="#">Mis listas</a>
+                    <a class="dropdown-item" href="#">Tus pedidos</a>
+                    <a class="dropdown-item" href="#">Membresía</a>
+                    <a class="dropdown-item" href="#">FanShop</a>
+                    <a class="dropdown-item" href="#">Encuentra un regalo</a>
+                  </div>
+                </li>
+                <li class="nav-item active text-center">
+                  <a class="nav-link" href="#">Pedidos<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active text-center">
+                  <a class="nav-link" href="#">Carrito<span class="sr-only">(current)</span>
+                    <img src="./assets/buy-icon.png" alt="">
+                  </a>
+                </li>
+
+
+              </ul>
+            </div>
+          
+        </div>
+      </nav>
+    <!-- /Segundo menu -->
+    <!-- Tercer menu -->
+      <nav id="menu3" class="navbar navbar-expand-lg navbar-light bg-light"> 
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Prime <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Entrega</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ofertas exclusivas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Prime Insider</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Obtener ayuda</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <!-- /Tercer menu -->
+    </header>
+    <!-- /Menu -->
+    <!-- Main -->
+    <section class="try-me">
+      <div class="try-me-content">
+        <div class="try-me-image">
+          <img
+          class="img-fluid" src="https://images-na.ssl-images-amazon.com/images/G/01/marketing/prime/new_logos/Amazon_Prime_Logo_White_Large._CB471460684_.png">
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col text-center" id="titulo-largo"><h2>Obtén lo mejor de las Compras y el Entretenimiento con Amazon Prime.</h2></div>
+          </div>
+          <div class="row">
+            <div class="col-6 text-center offset-3 mt-3">
+              <button type="button" class="btn btn-warning btn-lg btn-block"><b>PRUEBA PRIME</b></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- /Main -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col text-center pie-menu">
+          <h3>Descubre todo lo que tu membresía Prime te ofrece:</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="container'fluid">
+      <div class="row">
+          <div class="col-5">
+              <hr class="linea">
+          </div>
+          <div class="col-2 text-center"><h4>Compras</h4></div>
+          <div class="col-5">
+              <hr class="linea">
+          </div>
+      </div>
+  </div>
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col">
+              <div class="card mb-3 tarjeta cajita">
+                  <div class="row no-gutters">
+                      <div class="col-md-4 imagen">
+                          <img src="./data/imagen-1.jpg" class="card-img" alt="Imagen de entrega">
+                      </div>
+                      <div class="col-md-8">
+                          <div class="card-body">
+                              <h5 class="card-title">Entrega gratis, tan pronto como hoy mismo</h5>
+                              <p class="card-text">Formas rápidas, gratis y convenientes de obtener millones de artículos, desde Envío
+                                  ilimitado en Dos días hasta Entrega el Mismo Día y en Dos horas en determinadas áreas.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>                
+          </div>
+          <div class="col">
+              <div class="card mb-3 tarjeta cajita">
+                  <div class="row no-gutters">
+                      <div class="col-md-4 imagen">
+                          <img src="./data/imagen-2.jpg" class="card-img" alt="imagen-2">
+                      </div>
+                      <div class="col-md-8">
+                          <div class="card-body">
+                              <h5 class="card-title">Ofertas Exclusivas <br> Solo para ti</h5>
+                              <p class="card-text">Obtén acceso exclusivo a ofertas y descuentos antes que nadie con acceso prioritario de 30
+                                  minutos a Ofertas Relámpago</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col">
+              <div class="card mb-3 tarjeta cajita">
+                  <div class="row no-gutters">
+                      <div class="col-md-4 imagen">
+                          <img src="./data/imagen-3.jpg" class="card-img" alt="imagen-4">
+                      </div>
+                      <div class="col-md-8">
+                          <div class="card-body">
+                              <h5 class="card-title">Ahorros para la Familia</h5>
+                              <p class="card-text">Miembros Prime ahorran hasta 20% en la suscripción de pañales y comida para
+                                  bebé</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <div class="card mb-3 tarjeta cajita">
+                  <div class="row no-gutters">
+                      <div class="col-md-4 imagen">
+                          <img src="./data/imagen-4.jpg" class="card-img" alt="imagen-4">
+                      </div>
+                      <div class="col-md-8">
+                          <div class="card-body">
+                              <h5 class="card-title">Ahorra en grande en Alimentos</h5>
+                              <p class="card-text">Ofertas exclusivas en Whole Foods Market, 5% de devolución con la tarjeta cajita
+                                  Amazon Prime Rewards Visa, y entrega de 2 horas con Prime Now en ciudades selectas (más
+                                  pronto).</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="container'fluid">
+      <div class="row">
+          <div class="col-5">
+              <hr class="linea">
+          </div>
+          <div class="col-2 text-center"><h4>Entretenimiento</h4></div>
+          <div class="col-5">
+              <hr class="linea">
+          </div>
+      </div>
+  </div>
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col">
+              <div class="card mb-3 tarjeta cajita">
+                  <div class="row no-gutters">
+                      <div class="col-md-4 imagen">
+                          <img src="./data/imagen-5.jpg" class="card-img" alt="Imagen-5">
+                      </div>
+                      <div class="col-md-8">
+                          <div class="card-body">
+                              <h5 class="card-title">Películas, TV, y Prime Originals</h5>
+                              <p class="card-text">Todos tus favoritos en un solo lugar. Reproduce Originals galardonados, miles de películas
+                                  gratis, y alquila títulos difíciles de encontrar, sin necesidad de cable.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>                
+          </div>
+          <div class="col">
+              <div class="card mb-3 tarjeta cajita">
+                  <div class="row no-gutters">
+                      <div class="col-md-4 imagen">
+                          <img src="./data/imagen-6.jpg" class="card-img" alt="imagen-6">
+                      </div>
+                      <div class="col-md-8">
+                          <div class="card-body">
+                              <h5 class="card-title">Más de dos millones de canciones, sin anuncios</h5>
+                              <p class="card-text">Obtén acceso a una biblioteca exclusiva de canciones de Amazon Music sin anuncios.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col">
+              <div class="card mb-3 tarjeta cajita">
+                  <div class="row no-gutters">
+                      <div class="col-md-4 imagen">
+                          <img src="./data/imagen-7.jpg" class="card-img" alt="imagen-7">
+                      </div>
+                      <div class="col-md-8">
+                          <div class="card-body">
+                              <h5 class="card-title">Juegos y botín Gratis con Twitch</h5>
+                              <p class="card-text">Con Prime, obtén juegos de bonificación, botín gratis en el juego y una suscripción
+                                  mensual al canal en Twitch. Nuevas ofertas cada mes, así que cuanto más juegues, más ganas.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <div class="card mb-3 tarjeta cajita">
+                  <div class="row no-gutters">
+                      <div class="col-md-4 imagen">
+                          <img src="./data/imagen-8.jpg" class="card-img" alt="imagen-8">
+                      </div>
+                      <div class="col-md-8">
+                          <div class="card-body">
+                              <h5 class="card-title">Miembros Prime leen GRATIS</h5>
+                              <p class="card-text">Los miembros Prime ahora pueden leer tanto como quieran de más de mil libros, revistas, cómics,
+                                  Kindle Singles, y más.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+    <section id=footer1>
+      <div class="container">
+        <div class="row">
+          <div class="col-8 offset-2 text-center mt-3">
+            <h2>Más beneficios incluidos con Prime</h2>
+            <hr>
+          </div>
+          <div class="col-4 offset-2">
+            <h3>Compras</h3>
+            <p>
+              Envío GRATIS de Un día y Dos días <br>
+              Entrega GRATIS el mismo día <br>
+              Entrega de alimentos y restaurantes en 2 horas <br>
+              Entrega Programada, a Domicilio y en el Auto <br>
+              Pruébate la ropa antes de comprarla <br>
+              Compras y Ofertas Alexa Voice <br>
+              Ahorros en Whole Foods Market <br>
+              20% de descuento en pañales, comida para bebés y más
+            </p>
+          </div>
+          <div class="col-4">
+            <h3>Entretenimiento</h3>
+            <p>
+                Miles de películas, programas de TV y Prime Originals <br>
+                Más de dos millones de canciones, sin anuncios <br>
+                20% de descuento en Amazon Music Unlimited <br>
+                Podcasts rotativos en canales Audible <br>
+                Más de 1.000 libros electrónicos, revistas, cómics y audiolibros <br>
+                Acceso prioritario a libros Kindle cada mes <br>
+                Juegos y botín en el juego Gratis con Twitch <br>
+                Almacenamiento ilimitado de fotos
+            </p>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="btn btn-primary btn-lg btn-block">Inicio</button>
+    </section>
+    <!-- <div id="boton-final" class="container-fluid">
+        <button type="button" class="btn btn-lg btn-block">Inicio de página</button>
+    </div> -->
+    
+    <section id="footer2">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-2 mt-3">
+            <h5>Conócenos</h5>
+              
+          </div>
+          <div class="col-2 mt-3">
+            <h5>Gana dinero con nosotros</h5>
+              
+          </div>
+          <div class="col-2 mt-3">
+            <h5>Productos de Pago Amazon</h5>
+              
+          </div>
+          <div class="col-2 mt-3">
+            <h5>Podemos ayudarte</h5>
+              
+          </div>
+          <div class="col-2 mt-3"></div>
+        </div>
+        
+        <div class="row">
+          <div class="col-2 mb-4  "></div>
+          <div class="col-2 mb-4  ">
+              <a href="#">Trabaja en Amazon</a><br>
+              <a href="#">Blog</a><br>
+              <a href="#">Acerca de Amazon</a><br>
+              <a href="#">Relaciones con los inversionistas</a><br>
+              <a href="#">Dispositivos Amazon</a>
+          </div>
+          <div class="col-2 mb-4  ">
+              <a href="#">Vende en Amazon</a><br>
+              <a href="#">Vende tus servicios en Amazon</a><br>
+              <a href="#">Vende en Amazon Business</a><br>
+              <a href="#">Relaciones con los inversionistas</a><br>
+              <a href="#">Programa de afiliados</a><br>
+              <a href="#">Anuncia tus productos</a><br>
+              <a href="#">Publica tu libro en Kindle</a><br>
+              <a href="#">›Más información</a>
+          </div>
+          <div class="col-2 mb-4  ">
+              <a href="#">Tu cuenta</a><br>
+              <a href="#">Tus pedidos</a><br>
+              <a href="#">Tarifas y políticas</a><br>
+              <a href="#">Devolver productos</a><br>
+              <a href="#">Administrar dispositivos</a><br>
+              <a href="#">Amazon Assistant</a><br>
+              <a href="#">Ayuda</a>
+          </div>
+          <div class="col-2 mb-4  ">
+              <a href="#">Compra con puntos</a><br>
+              <a href="#">Recarga tu tarjeta de regalo</a><br>
+              <a href="#">Convertidor de Moneda de Amazon</a>
+          </div>
+          <div class="col-2 mb-4  "></div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer3">
+
+    </footer>
+    
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
